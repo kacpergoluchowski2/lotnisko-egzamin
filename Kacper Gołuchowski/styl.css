@@ -1,0 +1,58 @@
+.first_header {
+    float: left;
+    text-align: center;
+    width: 75%;
+    height: 150px;
+    font-size: 200%;
+    background-color: inherit;
+}
+
+.second_header {
+    float: left;
+    width: 25%;
+    height: 150px;
+    background-color: inherit;
+}
+
+main {
+    background-color: rgb(128,0,0);
+    padding: 50px;
+    text-transform: capitalize;
+}
+
+.first_footer, .third_footer {
+    float: left;
+    width: 20%;
+    padding-top: 90px;
+}
+
+.second_footer {
+    float: left;
+    text-align: center;
+    width: 60%;
+}
+
+body {
+    font-family: Arial;
+    background-color: rgb(244, 164, 96);
+    color: white;
+}
+
+p {
+    font-size: 150%;
+    border: dotted rgb(169, 169, 169) 2px;
+}
+
+p:hover {
+    background: rgb(169, 169, 169);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid rgb(192,192,192) 1px;
+    padding: 5px;
+}   
